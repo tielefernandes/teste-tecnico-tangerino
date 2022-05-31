@@ -43,6 +43,10 @@ passos à reproduzir para montagem de ambiente:
 11 - para criar a page onde estão os métodos do teste e seguindo o padrão de page objects
 
 	npx codecptj gpo
+	
+12 - para rodar o projeto use o comando: 
+
+	npx codeceptjs run 
 
 OBS: 
   - optei por armazenar os seletores/xpath em variáveis const para conseguir reproveitá-los caso necessário e para facilitar em eventuais futuras manutenções 
@@ -55,9 +59,7 @@ OBS:
   - os comandos podem ser rodados no bash, mas eu utilizo preferencialmente no terminal do vscode
 
 
-para rodar o projeto use o comando: 
 
-npx codeceptjs run
  
 
 
