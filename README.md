@@ -1,6 +1,7 @@
 # teste-tecnico-tangerino
 
 passos à reproduzir para montagem de ambiente: 
+
 1 - instalar o node, que eu utilizei a versão mais recente no exato momento ( 16.15.0 LTS )
 
 2 - instalar o java, que no momento está 1.8.0_333
