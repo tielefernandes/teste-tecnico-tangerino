@@ -1,0 +1,20 @@
+{
+  "name": "testes-automatizados-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "teste técnico tangerino"
+  },
+  "keywords": [],
+  "author": "Tiele Fernandes",
+  "license": "ISC",
+  "dependencies": {
+    "codeceptjs": "^3.3.3",
+    "selenium-standalone": "^8.1.4",
+    "webdriverio": "^7.19.7"
+  },
+  "devDependencies": {
+    "faker": "^5.5.3"
+  }
+}
