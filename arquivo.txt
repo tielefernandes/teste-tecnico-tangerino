@@ -1,0 +1,6 @@
+O motivo que escolhi utilizar o framework Codeceptjs é por que já tenho uma certa experiência com o mesmo e os métodos utilizados para escrever os testes são voltados para a perspectiva do usuário.
+
+Caso eu queria implementar um teste que precise clicar em um botão será utilizado o comando I.click(), ou seja, EU CLICO.
+
+Também é um framework que eu acho simples e tem uma documentação de fácil compreensão:
+https://codecept.io/helpers/WebDriver/#methods
