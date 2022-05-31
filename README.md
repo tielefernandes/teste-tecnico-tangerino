@@ -19,14 +19,17 @@ passos à reproduzir para montagem de ambiente:
 	* webdriverio
 ( npm install codeceptjs selenium-standalone webdriverio )
 
-5 - inicializando o codeceptsjs
+6 - inicializando o codeceptsjs
 	npx codeceptjs init
+	
 7 - instalar o selenium 
 	npx selenium-standalone install
+	
 8 - executar o selenium 
 	npx selenium-standalone start
 		
 9 - deixei o selenium rodando em uma aba de terminal e abri um novo  
+
 10 - para criar o arquivo de teste que eu desejo, utilizei o comando
 	npx codeceptjs gt / npx codeceptjs generate:nomedoarquivodesejado
 
