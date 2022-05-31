@@ -52,9 +52,9 @@ OBS:
   - optei por armazenar os seletores/xpath em variáveis const para conseguir reproveitá-los caso necessário e para facilitar em eventuais futuras manutenções 
 
   - para a massa de dados ficar mais dinâmica, utilizei a lib faker para preenhcer os campos propostos do formulário de cadastro de usuário
-  - 
-     npm install faker@5.5.3 --save-dev
-     (utilizei essa versão específica, pois é a que eu tenho certeza que não dá problema)
+  
+     	npm install faker@5.5.3 --save-dev
+     	(utilizei essa versão específica, pois é a que eu tenho certeza que não dá problema)
      
   - os comandos podem ser rodados no bash, mas eu utilizo preferencialmente no terminal do vscode
 
