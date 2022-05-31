@@ -20,7 +20,7 @@ passos à reproduzir para montagem de ambiente:
 	* selenium-standalone
 	* webdriverio
 	
-( npm install codeceptjs selenium-standalone webdriverio )
+	( npm install codeceptjs selenium-standalone webdriverio )
 
 6 - inicializando o codeceptsjs
 
