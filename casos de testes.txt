@@ -5,7 +5,7 @@ Objetivo do teste
 		
 
 Pré-condições
-	1. Possuir e-mail em formato válido
+	1. Possuir e-mail válido
 
 Passo a Passo
 	1. Acessar a plataforma My Store (http://automationpractice.com/index.php)
@@ -38,3 +38,40 @@ Resultado esperado
 	2. Tela de autenticação carregará 
 	3. Tela de criação de conta carregará
 	4. Tela de MY ACCOUNT será mostrada 
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Caso de teste cenário 02 
+
+Objetivo do teste
+	- Adicionar um produto no carrinho e finalizar pagamento
+
+Pré-condições
+	- N/A
+
+Passo a Passo
+	1. Acessar a plataforma My Store (http://automationpractice.com/index.php)
+	2. Inputar valor no campo de busca (Search) e clicar no botão/ícone [search]
+	3. Clicar no ícone List 
+	4. Clicar no botão [Add to cart]
+	5. Clicar no botão [Proceed to ckeckout]
+	6. Clicar no botão [Proceed to ckeckout]
+	7. Clicar no botão [Proceed to ckeckout]
+	8. Clicar no checkbox [x]I agree to the terms of service and will adhere to them unconditionally
+	9. Clicar no botão [Proceed to ckeckout]
+	10. Clicar na forma de pagamento desejável (Pay by bank wire ou Pay by check)
+	11. Clicar no botão [I confirm my order]
+
+Resultado esperado
+	1. E-commerce carregará
+	2. Tela de produto carregará
+	3. As informações do produto serão exibidas em lista e o botão [Add to cart] aparecerá
+	4. Modal de confirmação de produto aparecerá e será possível escolher em prosseguir para o pedido ou continuar comprando
+	5. Tela do pedido será exibida (Step 01 - Summary)
+	6. Tela do pedido será exibida (Step 03 - Address)
+	7. Tela do pedido será exibida (Step 04 - Shipping)
+	8. Será possível continuar com o pedido
+	9. Tela com o valor do pedido e escolha de pagamento será exibida
+	10. Tela de confirmação de pedido será exibida
+	11. Tela de pedido confirmado será exibido (Your order on My Store is complete)
