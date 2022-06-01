@@ -4,3 +4,12 @@ Caso eu queria implementar um teste que precise clicar em um botão será utiliz
 
 Também é um framework que eu acho simples e tem uma documentação de fácil compreensão:
 https://codecept.io/helpers/WebDriver/#methods
+
+
+* escolhi esses dois cenários por ser, na minha visão, o que é o básico para ser realizada uma compra
+ - cadastro de usuário 
+ - adicionar produto no carrinho 
+
+ --------------------------------------------------------------------------------------------------------
+
+ Para escrever os casos de testes tentei fazer algo parecido com a ferramenta Testlink, onde é escrito o passo a passo e o retorno de cada passo. 

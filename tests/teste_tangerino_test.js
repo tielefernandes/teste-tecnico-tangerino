@@ -7,11 +7,11 @@ const lastName = faker.name.lastName();
 const address = faker.address.streetAddress();
 const email = faker.internet.email(firstName);
 
-Scenario("cadastro de usuário com sucesso", ({ I, usuarioPage }) => {
+Scenario("cadastro de usuário com sucesso", ({ I, testPage }) => {
   I.amOnPage("http://automationpractice.com/index.php");
-  usuarioPage.acessarPaginaSignin();
-  usuarioPage.cadastroConta(parametros.dados, parametros.dados.emailValido);
-  usuarioPage.formulario(parametros.dados)
+  testPage.acessarPaginaSignin();
+  testPage.cadastroConta(parametros.dados, parametros.dados.emailValido);
+  testPage.formulario(parametros.dados)
 });
 
 var parametros = {

@@ -1,0 +1,40 @@
+Caso de teste cenário 01
+
+Objetivo do teste 
+	- Verificar se realiza cadastro de conta de cliente informando os dados de nome, sobrenome, e-mail, endereço(composto por Cidade, Estado e CEP), telefone, senha, data de nascimento
+		
+
+Pré-condições
+	1. Possuir e-mail em formato válido
+
+Passo a Passo
+	1. Acessar a plataforma My Store (http://automationpractice.com/index.php)
+	2. Apertar o botão [Sign in]
+	3. Informar um e-mail válido no campo 'Email address' e clicar no botão [Create an account]
+	4. Preencher os campos:
+		* Title
+		* Firs Name
+		* Last Name
+		* Email
+		* Password
+		* Date of birth (não é obrigatório)
+	   Preenhcer os dados YOUR ADDRESS
+		* Firt Name
+		* Last Name
+		* Company (não é obrigatório)
+		* Address
+		* Address (opcional)
+		* City
+		* State
+		* Zip/Postal code
+		* Country
+		* Additional Information (não é obrigatório)
+		* Home phone
+		* Mobile phone
+	   Clicar no botão [Register]
+
+Resultado esperado
+	1. E-commerce carregará 
+	2. Tela de autenticação carregará 
+	3. Tela de criação de conta carregará
+	4. Tela de MY ACCOUNT será mostrada 
